@@ -1,0 +1,9 @@
+## kops-kubernetes-cluster-configuration
+
+## Setting up a Kubernetes cluster on Google Cloud using kops involves several steps. Here's a step-by-step guide along with the code:
+
+## Prerequisites:
+#  Google Cloud SDK (gcloud)
+#  kops
+#  kubectl
+#  Make sure you have these tools installed and configured.
