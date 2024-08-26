@@ -73,7 +73,7 @@
 
 ## Important Notes:
 
-The #AlphaAllowGCE # feature flag is required since kops support for Google Cloud is still considered alpha.
-Ensure your Google Cloud account has the necessary permissions to create resources (e.g., VMs, firewalls, networking components).
-This guide assumes you are using a default network; custom networks may require additional configuration.
+#1. The AlphaAllowGCE  feature flag is required since kops support for Google Cloud is still considered alpha.
+#2. Ensure your Google Cloud account has the necessary permissions to create resources (e.g., VMs, firewalls, networking components).
+#3. This guide assumes you are using a default network; custom networks may require additional configuration.
 
