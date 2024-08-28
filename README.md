@@ -14,15 +14,15 @@
 
  
 #  Create a GCS bucket for kops state store
-   export KOPS_STATE_STORE=gs://<your-kops-bucket-name>
+   export KOPS_STATE_STORE=gs://kops-storage
    gsutil mb $KOPS_STATE_STORE
 
 ## Step 2: Create a Kubernetes Cluster with kops
 
 #  Define environment variables
-   export PROJECT=<your-gcp-project-id>
-   export ZONE=<your-gcp-zone>
-   export CLUSTER_NAME=<your-cluster-name>
+   export PROJECT=kingsleyproject-427719
+   export ZONE=us-central1-a
+   export CLUSTER_NAME=kops-cluster
    export KOPS_FEATURE_FLAGS=AlphaAllowGCE # Enable GCE support in kops
 
 #  Set up gcloud project and zone
