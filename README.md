@@ -86,3 +86,12 @@
 ## 2. Ensure your Google Cloud account has the necessary permissions to create resources (e.g., VMs, firewalls, networking components).
 ## 3. This guide assumes you are using a default network; custom networks may require additional configuration.
 
+
+
+Suggestions:
+ * validate cluster: kops validate cluster --wait 10m
+ * list nodes: kubectl get nodes --show-labels
+ * ssh to the master: ssh -i ~/.ssh/id_rsa ubuntu@api.mycluster.k8s.local
+ * the ubuntu user is specific to Ubuntu. If not using Ubuntu please use the appropriate user based on your OS.
+ * read about installing addons at: https://kops.sigs.k8s.io/operations/addons.
+
