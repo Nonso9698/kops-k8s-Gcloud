@@ -31,6 +31,7 @@
 
 #  Set up gcloud project and zone
    gcloud config set project $PROJECT
+   
    gcloud config set compute/zone $ZONE
 
 #  Create a new kops cluster
