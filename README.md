@@ -15,6 +15,7 @@
  
 #  Create a GCS bucket for kops state store
    export KOPS_STATE_STORE=gs://kops-storage
+   
    gsutil mb $KOPS_STATE_STORE
 
 ## Step 2: Create a Kubernetes Cluster with kops
