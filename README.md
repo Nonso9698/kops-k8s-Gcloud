@@ -22,8 +22,11 @@
 
 #  Define environment variables
    export PROJECT=kingsleyproject-427719
+   
    export ZONE=us-central1-a
+   
    export CLUSTER_NAME=kops-cluster
+   
    export KOPS_FEATURE_FLAGS=AlphaAllowGCE # Enable GCE support in kops
 
 #  Set up gcloud project and zone
