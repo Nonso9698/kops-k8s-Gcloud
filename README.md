@@ -36,15 +36,15 @@
 
 #  Create a new kops cluster
    kops create cluster \
-    --cloud gce \
-    --name $CLUSTER_NAME \
-    --state $KOPS_STATE_STORE \
-    --zones $ZONE \
-    --project $PROJECT \
-    --node-count 3 \
-    --node-size n1-standard-1 \
-    --master-size n1-standard-2 \
-    --yes
+  --cloud gce \
+  --name $CLUSTER_NAME \
+  --state $KOPS_STATE_STORE \
+  --zones $ZONE \
+  --project $PROJECT \
+  --node-count 3 \
+  --node-size n1-standard-1 \
+  --master-size n1-standard-2 \
+  --yes
 
 
 ## Step 3: Verify the Cluster
