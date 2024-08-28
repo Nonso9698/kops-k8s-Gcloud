@@ -95,3 +95,7 @@ Suggestions:
  * the ubuntu user is specific to Ubuntu. If not using Ubuntu please use the appropriate user based on your OS.
  * read about installing addons at: https://kops.sigs.k8s.io/operations/addons.
 
+
+
+
+1. gcloud compute networks create nonsovpc --project=kingsleyproject-427719 --subnet-mode=auto
