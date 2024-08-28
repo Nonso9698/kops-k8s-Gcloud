@@ -34,6 +34,10 @@
    
    gcloud config set compute/zone $ZONE
 
+#  Install kops on ubuntu
+   sudo snap install kops
+
+
 #  Create a new kops cluster
    kops create cluster \
   --cloud gce \
